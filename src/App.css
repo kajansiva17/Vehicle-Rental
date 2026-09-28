@@ -1,0 +1,85 @@
+:root {
+  --bs-body-bg: #f4f7fb;
+  --bs-body-color: #334155;
+  --bs-primary: #2563eb;
+}
+
+body {
+  min-width: 320px;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-custom {
+  background-color: #12355b;
+  color: #fff;
+}
+
+.navbar-menu-link {
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 0.375rem;
+}
+
+.navbar-menu-link:hover,
+.navbar-menu-link:focus,
+.navbar-menu-link.active {
+  color: #12355b !important;
+  background-color: #fbbf24;
+}
+
+.brand-mark {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #14b8a6, #2563eb);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #e0f2fe, #ecfeff);
+}
+
+.vehicle-card img {
+  height: 210px;
+  object-fit: cover;
+}
+
+.details-image {
+  min-height: 380px;
+  max-height: 520px;
+  object-fit: cover;
+}
+
+.status-available {
+  color: #166534;
+  background: #dcfce7;
+}
+
+.status-unavailable,
+.status-completed,
+.status-cancelled {
+  color: #991b1b;
+  background: #fee2e2;
+}
+
+.status-upcoming,
+.status-active {
+  color: #1d4ed8;
+  background: #dbeafe;
+}
+
+.status-badge {
+  text-transform: capitalize;
+}
+
+@media (max-width: 767.98px) {
+  .details-image {
+    min-height: 240px;
+  }
+}
